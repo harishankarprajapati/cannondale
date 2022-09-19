@@ -1,0 +1,439 @@
+body {
+	font-family: "favorit", Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.sec-bg-color {
+	background-color: #000000 !important;
+}
+
+/* slider */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900|Rubik:300,400,500,700,900');
+
+
+
+div {
+	display: block;
+	position: relative;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+.secbut-f {
+	text-align: center !important;
+	Margin: 0 auto
+}
+
+.sec-phight {
+	padding-bottom: 29%;
+}
+
+.sec-rigo {
+	padding-top: 32%;
+	font-size: 120px;
+	color: #fff;
+	font-weight: 700;
+	font-family: "favorit", Helvetica, sans-serif;
+}
+
+.sec-new-bg {
+	background-image: url(../images/new-bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.img-sec h1 {
+	font-family: "favorit", Helvetica, sans-serif;
+}
+
+.sec-arrow {
+	font-size: 30px;
+}
+
+.sec-size {
+	font-family: "Space Mono";
+	font-size: 20px;
+	font-weight: 400;
+	padding-top: 10px;
+}
+
+.sec-font {
+	font-size: 12px;
+	float: right;
+	padding-top: 15px;
+	text-decoration: underline;
+}
+
+.bbb_viewed {
+	padding-top: 51px;
+	padding-bottom: 60px;
+	background: #eff6fa
+}
+
+.bbb_main_container {
+	background-color: #fff;
+	padding: 11px;
+}
+
+
+
+.bbb_viewed_title {
+	margin-bottom: 16px;
+	margin-top: 8px;
+
+}
+
+.bbb_viewed_nav_container {
+	position: absolute;
+	right: -5px;
+	bottom: 14px
+}
+
+.bbb_viewed_nav {
+	display: inline-block;
+	cursor: pointer
+}
+
+.bbb_viewed_nav i {
+	color: #dadada;
+	font-size: 18px;
+	padding: 5px;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease
+}
+
+.bbb_viewed_nav:hover i {
+	color: #606264
+}
+
+.bbb_viewed_prev {
+	margin-right: 15px
+}
+
+.bbb_viewed_slider_container {
+	padding-top: 13px;
+}
+
+.bbb_viewed_item {
+	width: 100%;
+	background: #FFFFFF;
+	border-radius: 2px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 30px;
+	padding-right: 30px
+}
+
+.bbb_viewed_image {
+	width: 150px;
+	height: 150px;
+}
+
+.bbb_viewed_image img {
+	display: block;
+	width: 100%
+}
+
+.bbb_viewed_content {
+	width: 100%;
+	margin-top: 25px
+}
+
+.sec-start-bg {
+	background-image: url(../images/KidsSingleSpeed_HPBillboard_Desktop.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 250px;
+	padding-bottom: 250px;
+}
+
+.slider-img {
+	width: 100%;
+	height: 235px !important;
+}
+
+.sec-gear {
+	font-size: 60px;
+	font-weight: 600;
+}
+
+.bg-sec {
+	background-color: #e7e9eb;
+}
+
+.sec-butt:hover {
+	color: #fff !important;
+	background-color: #000 !important;
+}
+
+.sec-butt2:hover {
+	color: #000 !important;
+	background-color: #fff !important;
+}
+
+.sec-butt2 {
+	color: #fff !important;
+	background-color: #000 !important;
+}
+
+.sec-butt3 {
+	color: #000 !important;
+	background-color: #fff !important;
+}
+
+.sec-butt3:hover {
+	color: #fff !important;
+	background-color: #000 !important;
+}
+
+.sec-start-text h1 {
+	font-size: 120px;
+	font-family: "favorit", Helvetica, sans-serif;
+	font-weight: 600;
+}
+
+.sec-start-text p {
+	font-size: 20px;
+	font-family: "favorit", Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+h2 {
+	color: #000;
+	font-size: 26px;
+	font-weight: 300;
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	margin: 30px 0 80px;
+}
+
+h2 b {
+	color: #ffc000;
+}
+
+h2::after {
+	content: "";
+	width: 100px;
+	position: absolute;
+	margin: 0 auto;
+	height: 4px;
+	background: rgba(0, 0, 0, 0.2);
+	left: 0;
+	right: 0;
+	bottom: -20px;
+}
+
+.carousel {
+	margin: 50px auto;
+	padding: 0 70px;
+}
+
+.carousel .carousel-item {
+	min-height: 330px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.carousel .carousel-item .img-box {
+	height: 160px;
+	width: 100%;
+	position: relative;
+}
+
+.carousel .carousel-item img {
+	max-width: 100%;
+	max-height: 100%;
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+
+.carousel .carousel-item h4 {
+	font-size: 18px;
+	margin: 10px 0;
+}
+
+.carousel .carousel-item .btn {
+	color: #333;
+	border-radius: 0;
+	font-size: 11px;
+	text-transform: uppercase;
+	font-weight: bold;
+	background: none;
+	border: 1px solid #ccc;
+	padding: 5px 10px;
+	margin-top: 5px;
+	line-height: 16px;
+}
+
+.carousel .carousel-item .btn:hover,
+.carousel .carousel-item .btn:focus {
+	color: #fff;
+	background: #000;
+	border-color: #000;
+	box-shadow: none;
+}
+
+.carousel .carousel-item .btn i {
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 5px;
+}
+
+.carousel .thumb-wrapper {
+	text-align: center;
+}
+
+.carousel .thumb-content {
+	padding: 15px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+	height: 100px;
+	width: 40px;
+	background: none;
+	margin: auto 0;
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.carousel-control-prev i,
+.carousel-control-next i {
+	font-size: 30px;
+	position: absolute;
+	top: 50%;
+	display: inline-block;
+	margin: -16px 0 0 0;
+	z-index: 5;
+	left: 0;
+	right: 0;
+	color: rgba(0, 0, 0, 0.8);
+	text-shadow: none;
+	font-weight: bold;
+}
+
+.carousel-control-prev i {
+	margin-left: -3px;
+}
+
+.carousel-control-next i {
+	margin-right: -3px;
+}
+
+.carousel .item-price {
+	font-size: 13px;
+	padding: 2px 0;
+}
+
+.carousel .item-price strike {
+	color: #999;
+	margin-right: 5px;
+}
+
+.carousel .item-price span {
+	color: #86bd57;
+	font-size: 110%;
+}
+
+.carousel .carousel-indicators {
+	bottom: -50px;
+}
+
+.carousel-indicators li,
+.carousel-indicators li.active {
+	width: 10px;
+	height: 10px;
+	margin: 4px;
+	border-radius: 50%;
+	border-color: transparent;
+	border: none;
+}
+
+.carousel-indicators li {
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.carousel-indicators li.active {
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.star-rating li {
+	padding: 0;
+}
+
+.star-rating i {
+	font-size: 14px;
+	color: #ffc000;
+}
+
+.img-slider h1 {
+	font-weight: 700;
+}
+
+/* footer */
+
+.sec-bg-footer {
+	background-color: #000;
+}
+
+.email-sec {
+	border-bottom: 1px solid #fff !important;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-radius: 0;
+}
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------Rigosrace-page----------------- */
+.page-title {
+	font-size: 96px;
+	font-weight: 700;
+	font-family: "favorit", Helvetica, sans-serif;
+	padding-left: 80px;
+}
+
+.sec-img2 {
+	width: 65%;
+}
+
+.secp {
+	padding-left: 280px;
+	padding-top: 10px;
+}
+
+.sec-bg-bg {
+	background-image: url(../images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 900px;
+}
+
+.sec-r-p {
+	font-size: 24px;
+}
+/* ----------------------From Chasing to Chased-page--------------- */
+.sec-bg-bg2 {
+	background-image: url(../images/fbg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 900px;
+}
